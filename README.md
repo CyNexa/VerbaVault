@@ -14,24 +14,6 @@ VerbaVault is a **Next.js + Express** powered web application, designed as a mod
 
 ---
 
-## 📂 Project Structure
-
-```
-verba-vault/
-├── components.json        # UI components config
-├── server.js              # Express custom server
-├── next.config.ts         # Next.js configuration
-├── package.json           # Dependencies & scripts
-├── tsconfig.json          # TypeScript configuration
-├── postcss.config.mjs     # Tailwind/PostCSS setup
-├── eslint.config.mjs      # ESLint rules
-├── .env.local             # Local environment variables
-├── .gitignore             # Git ignored files
-└── app/                   # Next.js app directory (pages, layouts, etc.)
-```
-
----
-
 ## 🛠️ Installation & Setup
 
 Clone the repo and install dependencies:

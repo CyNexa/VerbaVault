@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VerbaVault
 
-## Getting Started
+VerbaVault is a **Next.js + Express** powered web application, designed as a modern library management and content vault system. It leverages **React, TailwindCSS, shadcn/ui, and Express backend integration** for seamless full-stack development.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+* ⚡ **Next.js (App Router)** – Modern, fast React framework
+* 🎨 **TailwindCSS + shadcn/ui** – Clean UI components & styling
+* 🔧 **Express Backend** – Custom server for API handling
+* 📦 **TypeScript Support** – Safer and more maintainable code
+* 🔐 **Environment Configurable** – `.env.local` for secrets and configs
+
+---
+
+## 📂 Project Structure
+
+```
+verba-vault/
+├── components.json        # UI components config
+├── server.js              # Express custom server
+├── next.config.ts         # Next.js configuration
+├── package.json           # Dependencies & scripts
+├── tsconfig.json          # TypeScript configuration
+├── postcss.config.mjs     # Tailwind/PostCSS setup
+├── eslint.config.mjs      # ESLint rules
+├── .env.local             # Local environment variables
+├── .gitignore             # Git ignored files
+└── app/                   # Next.js app directory (pages, layouts, etc.)
+```
+
+---
+
+## 🛠️ Installation & Setup
+
+Clone the repo and install dependencies:
+
+```bash
+# Clone repo
+git clone https://github.com/your-username/verba-vault.git
+cd verba-vault
+
+# Install dependencies
+npm install
+```
+
+### Development
+
+To start both **Next.js frontend** and **Express backend**:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Production
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Build and start production server:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ⚙️ Environment Variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create a `.env.local` file in the root and add:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```env
+NEXT_PUBLIC_API_URL=http://something.com:5000
+DICTIONARY_API_URL=https://api.something.dev/api/....
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Frontend:** Next.js, React, TailwindCSS, shadcn/ui
+* **Backend:** Express.js (Custom Server)
+* **Language:** TypeScript, JavaScript
+
+---
+
+## 🤝 Contributing
+
+1. Fork it 🍴
+2. Create your feature branch (`git checkout -b feature/awesome-feature`)
+3. Commit changes (`git commit -m 'Add awesome feature'`)
+4. Push to branch (`git push origin feature/awesome-feature`)
+5. Open a Pull Request 🚀
+

@@ -6,9 +6,9 @@
     "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
     "frontend": "next dev --turbopack",
     "backend": "node server.js",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "npm build",
+    "start": "npm start",
+    "lint": "npm lint"
   },
   "dependencies": {
     "@radix-ui/react-separator": "^1.1.7",

@@ -51,7 +51,7 @@ npm start
 Create a `.env.local` file in the root and add:
 
 ```env
-NEXT_PUBLIC_API_URL=
+NEXT_PUBLIC_API_URL=http://localhost:5000
 DICTIONARY_API_URL=
 ```
 
